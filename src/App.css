@@ -14,14 +14,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #d3d3d3;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  gap: 20px;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -35,4 +34,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Provider-Selection {
+  display: flex;
+  min-width: 800px;
+  gap: 20px;
+  margin-top: 32px;
+}
+
+.Provider-Selection > h3 {
+  flex: 1 0 auto;
+}
+
+.Provider-Select {
+  display: flex;
+  gap: 20px;
+}
+
+.Provider-Select-selectbox {
+  min-width: 200px;
+}
+
+.Provider-Employee_data {
+  width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.centered {
+  text-align: center;
 }
